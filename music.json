@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "groups": [
+    [
+      "白天与普通活动",
+      [
+        [
+          "Kichijoji 199X",
+          7331745405550
+        ],
+        [
+          "Life Goes On",
+          1390846716900
+        ],
+        [
+          "My Homie",
+          7285805910542
+        ],
+        [
+          "New Beginning",
+          5506222394588
+        ],
+        [
+          "Royal Days",
+          7767434597540
+        ],
+        [
+          "Sweet",
+          1008078729408
+        ],
+        [
+          "Tokyo Daylight",
+          5253790121348
+        ]
+      ]
+    ],
+    [
+      "夜晚与室内休闲",
+      [
+        [
+          "Beneath the Mask -instrumental version-",
+          4366315677033
+        ],
+        [
+          "Beneath the Mask",
+          4968218822499
+        ],
+        [
+          "Butterfly Kiss",
+          9118711987381
+        ],
+        [
+          "Crossroads",
+          7462069921884
+        ],
+        [
+          "Layer Cake",
+          2938755339937
+        ],
+        [
+          "No More What Ifs -instrumental version-",
+          3862275984009
+        ],
+        [
+          "No More What Ifs",
+          7284120764977
+        ],
+        [
+          "The Whims of Fate",
+          7890392722901
+        ]
+      ]
+    ],
+    [
+      "雨天都市",
+      [
+        [
+          "Beneath the Mask -rain-",
+          7176125067644
+        ],
+        [
+          "Beneath the Mask -rain, instrumental version-",
+          6853386888091
+        ]
+      ]
+    ],
+    [
+      "都市紧张状态",
+      [
+        [
+          "Disquiet",
+          1781846507160
+        ],
+        [
+          "High Pressure",
+          6021506000384
+        ],
+        [
+          "Suspicion",
+          5543456075246
+        ],
+        [
+          "Tokyo Emergency",
+          2420279013346
+        ],
+        [
+          "Wicked Plan",
+          3572443659191
+        ]
+      ]
+    ],
+    [
+      "普通战斗",
+      [
+        [
+          "Last Surprise",
+          3412309856353
+        ],
+        [
+          "Take Over",
+          7842809508254
+        ]
+      ]
+    ],
+    [
+      "强敌战",
+      [
+        [
+          "Blooming Villain",
+          2353740482027
+        ],
+        [
+          "Keeper of Lust",
+          1899777470381
+        ],
+        [
+          "Prison Labor",
+          9022088915854
+        ],
+        [
+          "Will Power",
+          6812106660438
+        ]
+      ]
+    ],
+    [
+      "行动与突入",
+      [
+        [
+          "I believe",
+          9531490118661
+        ],
+        [
+          "Life Will Change -instrumental version-",
+          4034666796295
+        ],
+        [
+          "Life Will Change",
+          4498695652289
+        ]
+      ]
+    ],
+    [
+      "决战",
+      [
+        [
+          "Jaldabaoth",
+          2519041371118
+        ],
+        [
+          "Keep Your Faith",
+          7518525255078
+        ],
+        [
+          "Our Beginning",
+          4289022545958
+        ],
+        [
+          "Rivers In the Desert -instrumental version-",
+          5395787107772
+        ],
+        [
+          "Rivers in the Desert",
+          4060424317959
+        ],
+        [
+          "Throw Away Your Mask",
+          5178277717991
+        ]
+      ]
+    ],
+    [
+      "战斗结束",
+      [
+        [
+          "Triumph",
+          8760916075347
+        ]
+      ]
+    ]
+  ],
+  "playlists": {
+    "day": [
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6"
+    ],
+    "night": [
+      "1:0",
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6",
+      "1:7"
+    ],
+    "rain": [
+      "2:0",
+      "2:1"
+    ],
+    "battle": [
+      "4:0",
+      "4:1"
+    ],
+    "street": [
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6"
+    ],
+    "office": [
+      "1:4",
+      "1:0"
+    ],
+    "nightlife": [
+      "1:3",
+      "1:7"
+    ],
+    "clinic": [
+      "1:2"
+    ],
+    "harbor": [
+      "1:4",
+      "1:0"
+    ]
+  },
+  "day": "day",
+  "night": "night",
+  "rain": "rain",
+  "combat": "battle",
+  "rules": [
+    {
+      "field": "location",
+      "match": [
+        "事务所",
+        "办公室"
+      ],
+      "playlist": "office"
+    },
+    {
+      "field": "location",
+      "match": [
+        "诊所",
+        "医院"
+      ],
+      "playlist": "clinic"
+    },
+    {
+      "field": "location",
+      "match": [
+        "酒吧",
+        "夜店"
+      ],
+      "playlist": "nightlife"
+    },
+    {
+      "field": "neighborhood",
+      "match": [
+        "暗市弄",
+        "旧港里"
+      ],
+      "playlist": "harbor"
+    },
+    {
+      "field": "district",
+      "match": [
+        "神乐町"
+      ],
+      "playlist": "street"
+    },
+    {
+      "field": "district",
+      "match": [
+        "见帆港"
+      ],
+      "playlist": "harbor"
+    }
+  ]
+}

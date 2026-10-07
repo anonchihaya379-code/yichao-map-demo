@@ -1,0 +1,36 @@
+{
+  "logo": "https://img.huohu.ai/library/5562991478/images/1718498458437.webp",
+  "audio": "https://img.huohu.ai/library/5562991478/audio/",
+  "dock": [
+    {
+      "id": "yuge",
+      "label": "鱿格",
+      "icon": "https://img.huohu.ai/library/5562991478/images/1662119046677.webp",
+      "color": "#5bdbb5",
+      "view": "yuge"
+    },
+    {
+      "id": "map",
+      "label": "地图",
+      "icon": "https://img.huohu.ai/library/5562991478/images/6580333043148.webp",
+      "color": "#58a8e8",
+      "view": "map"
+    },
+    {
+      "id": "settings",
+      "label": "设置",
+      "icon": "https://img.huohu.ai/library/5562991478/images/1002472034986.webp",
+      "color": "#a8bbc0",
+      "view": "settings"
+    }
+  ],
+  "marks": [
+    null,
+    "https://img.huohu.ai/library/5562991478/images/5972859347347.webp",
+    "https://img.huohu.ai/library/5562991478/images/5322745309552.webp",
+    "https://img.huohu.ai/library/5562991478/images/4264922332754.png",
+    "https://img.huohu.ai/library/5562991478/images/6351163265912.png",
+    "https://img.huohu.ai/library/5562991478/images/3964993495910.png",
+    "https://img.huohu.ai/library/5562991478/images/7828685061018.png"
+  ]
+}
