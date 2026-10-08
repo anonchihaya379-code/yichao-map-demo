@@ -642,3 +642,8 @@
 .a .member-detail .O2>span:first-child{margin:0;color:#ffd0d9;font:400 12px/1.5 var(--heading)}
 @container combat-sheet (max-width:300px){.a .u{grid-template-columns:repeat(4,minmax(0,1fr));gap:2px}.a .u>span:before{width:40px;height:40px}.a .u b{font-size:13px}.a .sk-card{padding:9px 8px 10px;column-gap:7px}.a .sk-die{width:26px;height:26px}.a .sk-name{font-size:14px}}
 @container combat-sheet (max-width:250px){.a .i1{grid-template-columns:minmax(0,1fr)}}
+.a .u>span:before{grid-area:r}
+.a .sk-card{grid-template-areas:"die name" "dice dice" "fx fx";row-gap:0}
+.a .sk-die{align-self:center}
+.a .sk-name{align-self:center}
+.a .sk-dice{margin-top:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
