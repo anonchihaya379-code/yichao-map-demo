@@ -680,3 +680,6 @@
 .a .q1>span{width:30px;height:12px;font-size:0;color:transparent;background:#fff;-webkit-mask:url(https://img.huohu.ai/library/5562991478/images/9087764063037.webp) center/contain no-repeat;mask:url(https://img.huohu.ai/library/5562991478/images/9087764063037.webp) center/contain no-repeat}
 .a .q1:disabled>span{background:#7f8f99}
 .a button.b1:not(:disabled) p:after{content:"";width:34px;height:14px;background:#fff;-webkit-mask:url(https://img.huohu.ai/library/5562991478/images/9087764063037.webp) center/contain no-repeat;mask:url(https://img.huohu.ai/library/5562991478/images/9087764063037.webp) center/contain no-repeat}
+.a .q1{padding-right:50px}
+.a .q1>span{right:12px;width:28px;height:11px}
+@container combat-sheet (max-width:300px){.a .q1{padding-right:44px}.a .q1>span{right:9px;width:24px;height:10px}}
