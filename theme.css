@@ -684,3 +684,7 @@
 .a .q1>span{right:12px;width:28px;height:11px}
 @container combat-sheet (max-width:300px){.a .q1{padding-right:44px}.a .q1>span{right:9px;width:24px;height:10px}}
 .a .q1{flex:none;width:auto;min-width:max-content;white-space:nowrap}
+@keyframes tide-nudge{0%,100%{transform:translate(0,-50%) scaleX(-1)}50%{transform:translate(4px,-50%) scaleX(-1)}}
+.a .q1>span,.a button.b1 p:after{transform:translate(0,-50%) scaleX(-1)}
+.a .q1:not(:disabled)>span,.a button.b1:not(:disabled) p:after{animation:tide-nudge 1.1s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.a .q1>span,.a button.b1 p:after{animation:none!important}}
