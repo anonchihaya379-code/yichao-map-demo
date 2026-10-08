@@ -211,5 +211,6 @@
 .a .e3 input{border-radius:8px}
 .a .d3{gap:10px;padding:8px 16px 24px}
 .a .q1{border-radius:10px;padding:9px 14px}
-@container combat-sheet (max-width:300px){.a .p1{padding:4px 12px 14px}.a .foe-row{margin:0 -12px;padding:2px 12px 4px}.a .C1 h2{font-size:26px}.a .k1 strong{font-size:38px}.a .b4{font-size:16px}.a .u{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 12px}.a .k3,.a .h1:disabled .k3{font-size:15px}.a .h1{min-height:62px;padding:9px 10px 10px}.a .d3{gap:8px;padding:8px 12px 24px}.a .q1{padding:8px 10px;font-size:12px}.a .q1>span{margin-left:6px}.a .K2 h3{font-size:23px}}
-@container combat-sheet (max-width:250px){.a .l5{grid-template-columns:minmax(0,1fr)}.a .h1:last-child:nth-child(odd){grid-column:auto}.a .foe-row{grid-auto-columns:minmax(124px,78%)}}
+@container combat-sheet (max-width:300px){.a .p1{padding:4px 12px 14px}.a .foe-row{margin:0 -12px;padding:2px 12px 4px}.a .C1 h2{font-size:26px}.a .k1 strong{font-size:38px}.a .b4{font-size:16px}.a .u{gap:6px 6px}.a .S2{padding:8px 10px 9px}.a .k3,.a .h1:disabled .k3{font-size:15px}.a .h1{min-height:62px;padding:9px 10px 10px}.a .d3{gap:8px;padding:8px 12px 24px}.a .q1{padding:8px 10px;font-size:12px}.a .q1>span{margin-left:6px}.a .K2 h3{font-size:23px}}
+@container combat-sheet (max-width:250px){.a .u{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 12px}.a .l5{grid-template-columns:minmax(0,1fr)}.a .h1:last-child:nth-child(odd){grid-column:auto}.a .foe-row{grid-auto-columns:minmax(124px,78%)}}
+.M1{overflow:hidden;text-overflow:ellipsis}@media(max-width:356px){.e .r{width:98px;gap:4px;padding-right:8px;padding-left:8px}.C,.M1{font-size:8px;letter-spacing:.02em}.I{gap:5px;padding-right:10px;padding-left:10px}}
