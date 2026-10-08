@@ -1,3 +1,9 @@
+物品详情玻璃表面与阴影改编自：
+https://uiverse.io/byllzz/fluffy-hound-44
+Copyright - 2026 byllzz (Bilal Malik)
+仅复用玻璃表面、内侧高光及投影思路，重配深海蓝色与现有物品布局；许可为下列 MIT License。
+游戏装饰边缘参考（未复制素材文件）：https://kenney.nl/assets/fantasy-ui-borders
+
 播放器圆环控制的视觉实现改编参考：
 https://uiverse.io/csemszepp/calm-grasshopper-57
 Copyright - 2026 https://codepen.io/RitikaAgrawal08/pen/eYGXQLz
