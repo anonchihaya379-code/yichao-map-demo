@@ -493,3 +493,10 @@
 @keyframes clash-sweep{0%{opacity:0;left:-30%}20%{opacity:1}to{opacity:0;left:120%}}
 @keyframes clash-pulse{0%,100%{opacity:.55}50%{opacity:1}}
 @keyframes clash-nudge{0%,100%{transform:translate(0,-50%)}50%{transform:translate(4px,-54%)}}
+.a .w1,.a .duelist[data-side=enemy] .w1{aspect-ratio:5/8}
+.a .Y3:before{inset:6% 0 14%}
+.a .Y3:after{right:0;bottom:-6%;left:0;height:52%;opacity:1;background:radial-gradient(46% 55% at 26% 74%,rgba(89,213,255,.34),transparent 72%),radial-gradient(46% 55% at 74% 74%,rgba(255,140,160,.32),transparent 72%),radial-gradient(80% 30% at 50% 100%,rgba(0,4,12,.75),transparent 80%)}
+.a .G[data-winner=player][data-phase=resolved] .Y3:after{background:radial-gradient(54% 62% at 28% 74%,rgba(89,213,255,.5),transparent 72%),radial-gradient(40% 48% at 74% 74%,rgba(255,140,160,.14),transparent 72%),radial-gradient(80% 30% at 50% 100%,rgba(0,4,12,.75),transparent 80%)}
+.a .G[data-winner=enemy][data-phase=resolved] .Y3:after{background:radial-gradient(40% 48% at 26% 74%,rgba(89,213,255,.14),transparent 72%),radial-gradient(54% 62% at 72% 74%,rgba(255,140,160,.5),transparent 72%),radial-gradient(80% 30% at 50% 100%,rgba(0,4,12,.75),transparent 80%)}
+.a .Y3{padding-bottom:18px}
+@container (max-height:560px){.a .w1,.a .duelist[data-side=enemy] .w1{aspect-ratio:2/3}}
