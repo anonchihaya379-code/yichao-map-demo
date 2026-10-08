@@ -437,7 +437,7 @@
 .a .G[data-phase=rolling] .X{animation:die-roll .32s linear infinite}
 .a .G[data-phase=rolling] .duelist[data-side=enemy] .X{animation-direction:reverse}
 .a .G[data-phase=resolved] .X{animation:die-settle .38s cubic-bezier(.2,.9,.25,1) both}
-.a .G[data-phase=resolved] .duelist[data-winner=true] .X{animation:die-settle .38s cubic-bezier(.2,.9,.25,1) both,clash-die-pop .45s .3s cubic-bezier(.2,.9,.25,1) both;filter:drop-shadow(0 6px 10px rgba(0,0,0,.7)) drop-shadow(0 0 10px var(--side-glow))}
+.a .G[data-phase=resolved] .duelist[data-winner=true] .X{animation:die-settle .38s cubic-bezier(.2,.9,.25,1) both,clash-die-pop .45s .3s cubic-bezier(.2,.9,.25,1) forwards;filter:drop-shadow(0 6px 10px rgba(0,0,0,.7)) drop-shadow(0 0 10px var(--side-glow))}
 .a .G[data-phase=resolved] .duelist[data-loser=true] .X:before{background:#5f7382;box-shadow:none}
 @keyframes die-drop{from{opacity:0;transform:translateY(-26px) rotate(-90deg) scale(.7)}to{opacity:1;transform:none}}
 @keyframes die-roll{0%{transform:rotate(0) scale(1)}25%{transform:rotate(90deg) scale(.88) translateY(-4px)}50%{transform:rotate(180deg) scale(1)}75%{transform:rotate(270deg) scale(.88) translateY(-4px)}to{transform:rotate(360deg) scale(1)}}
