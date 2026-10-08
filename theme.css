@@ -683,3 +683,4 @@
 .a .q1{padding-right:50px}
 .a .q1>span{right:12px;width:28px;height:11px}
 @container combat-sheet (max-width:300px){.a .q1{padding-right:44px}.a .q1>span{right:9px;width:24px;height:10px}}
+.a .q1{flex:none;width:auto;min-width:max-content;white-space:nowrap}
