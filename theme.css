@@ -413,3 +413,8 @@
 .a .b1 p{color:#e6eff4;font-size:12px}
 .a button.b1:not(:disabled):hover:before{background:linear-gradient(100deg,rgba(4,18,34,.95),rgba(10,40,68,.92))}
 @container (max-width:280px){.a .Y3{gap:12px}.a .X{width:54px}.a .X strong{font-size:27px}.a .w1{margin-bottom:26px}.a .f4{bottom:-19px}}
+.a .w1,.a .duelist[data-side=enemy] .w1{aspect-ratio:2/3;margin-bottom:58px}
+.a .Y2{position:absolute;top:calc(100% + 30px);right:-6px;left:-6px;z-index:4;padding:0;line-height:1.45}
+.a .X{width:68px}
+.a .X strong{font-size:34px}
+@container (max-width:280px){.a .w1,.a .duelist[data-side=enemy] .w1{margin-bottom:52px}.a .Y2{top:calc(100% + 26px)}.a .X{width:56px}.a .X strong{font-size:28px}}
