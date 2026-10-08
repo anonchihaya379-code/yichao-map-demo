@@ -545,3 +545,5 @@
 .a button.b1:disabled:after{display:none}
 .a .feedback{border:0;border-radius:0;padding:10px 16px;background:rgba(3,12,24,.94);color:#dfeaf1;font-size:12px;text-align:center;-webkit-mask:var(--ink-block) center/100% 100% no-repeat;mask:var(--ink-block) center/100% 100% no-repeat}
 .a .f3~.feedback{top:64px;bottom:auto}
+.a .p1{background:linear-gradient(180deg,transparent 62%,rgba(89,213,255,.1))}
+.a .q1:not(:disabled):after,.a .b1:after{display:none;animation:none}
