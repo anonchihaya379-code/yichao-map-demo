@@ -345,3 +345,71 @@
 .a .H1 h3{text-shadow:0 2px 8px rgba(0,8,20,.6),0 0 22px rgba(89,213,255,.18)}
 .a .L{filter:drop-shadow(0 6px 10px rgba(0,4,12,.55))}
 .a .p2 li,.a .E2{box-shadow:inset 0 0 0 1px rgba(89,213,255,.35),0 3px 8px rgba(0,4,12,.45)}
+.a .K4{background:radial-gradient(110% 60% at 50% 48%,rgba(10,40,70,.35),transparent 70%),linear-gradient(180deg,#021221d9,#06172ae6 55%,#030e1bf2),var(--u3) center/cover no-repeat}
+.a .G{grid-template-rows:auto minmax(0,1fr) auto;gap:4px;padding:12px 16px 14px}
+.a .t1{padding:4px 34px 0}
+.a .t1 h3{position:relative;z-index:1;font-size:30px;color:#f3f9fc;text-shadow:0 2px 10px rgba(0,8,20,.7)}
+.a .t1:before{content:"";position:absolute;top:50%;left:50%;z-index:0;width:min(250px,86%);height:46px;background:var(--tide);opacity:.28;transform:translate(-50%,-44%);-webkit-mask:url(https://img.huohu.ai/library/5562991478/images/3466056098761.webp) center/100% 100% no-repeat;mask:url(https://img.huohu.ai/library/5562991478/images/3466056098761.webp) center/100% 100% no-repeat;transition:background-color .3s,opacity .3s}
+.a .t1[data-result=player]:before{opacity:.42}
+.a .t1[data-result=enemy]:before{background:var(--coral);opacity:.4}
+.a .t1[data-result=tie]:before{background:#c9d6df;opacity:.3}
+.a .Y3{align-self:center;align-content:center;max-height:none;height:auto;gap:18px;margin:0 -16px;padding:6px 16px 4px;overflow:visible}
+.a .duelist{grid-template-rows:auto auto auto;align-content:start;--side-color:#9fe4ff;--side-glow:rgba(89,213,255,.55)}
+.a .duelist[data-side=enemy]{--side-color:#ffb3c1;--side-glow:rgba(255,140,160,.55)}
+.a .w2{min-height:0;padding:0 0 8px}
+.a .L4{font-size:10px;letter-spacing:.24em}
+.a .r3{font-size:16px;color:#f3f9fc}
+.a .w1,.a .duelist[data-side=enemy] .w1{position:relative;display:block;aspect-ratio:5/7;width:100%;margin:0 0 30px;padding:0;overflow:visible;border:1px solid var(--side-color);border-radius:6px;outline:0;background:#05121f;box-shadow:0 0 0 3px rgba(3,10,20,.85),0 0 16px -2px var(--side-glow),0 14px 26px rgba(0,4,12,.65);transform:rotate(-2.5deg)}
+.a .duelist[data-side=enemy] .w1{transform:rotate(2.5deg)}
+.a .w1:after{inset:4px;border:1px solid rgba(255,255,255,.1);border-radius:3px;z-index:2}
+.a .J3{display:none}
+.a .card-art{position:absolute;inset:0;overflow:hidden;border-radius:5px;background:radial-gradient(80% 60% at 50% 30%,rgba(89,213,255,.25),transparent 70%),#061a2e}
+.a .duelist[data-side=enemy] .card-art{background:radial-gradient(80% 60% at 50% 30%,rgba(255,140,160,.22),transparent 70%),#1a0d22}
+.a .card-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.a .card-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,12,24,0) 30%,rgba(3,12,24,.55) 52%,rgba(3,12,24,.94) 68%,#030c18 100%)}
+.a .duelist[data-side=enemy] .card-art:after{background:linear-gradient(180deg,rgba(18,6,20,0) 30%,rgba(18,6,20,.55) 52%,rgba(18,6,20,.94) 68%,#12061a 100%)}
+.a .j1{position:absolute;right:0;bottom:31%;left:0;z-index:3;margin:0;padding:0 8px;text-align:center}
+.a .duelist h4{font-size:clamp(17px,6.2cqw,22px);color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.85)}
+.a .g4{margin-top:2px;color:var(--side-color);font-size:10px;text-shadow:0 1px 3px rgba(0,0,0,.8)}
+.a .f4{position:absolute;right:0;bottom:-22px;left:0;z-index:4;padding:0}
+.a .X{width:64px;height:auto;aspect-ratio:1;margin:0 auto;filter:drop-shadow(0 4px 10px rgba(0,0,0,.7))}
+.a .X svg{display:none}
+.a .X:before{content:"";position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 50% 35%,#0b2740,#030c18 70%);box-shadow:inset 0 0 0 2px var(--side-color),0 0 14px var(--side-glow)}
+.a .X strong{font-size:32px;color:#f6fbff;margin-top:2px}
+.a .X small{color:var(--side-color);font-size:8px;letter-spacing:.1em}
+.a .Y2{min-height:0;padding:8px 0 0;color:#d6e4ec;font-size:10px;text-align:center}
+.a .Y2 span+span{color:#93a9b8}
+.a .H{min-height:0;padding:6px 0 0}
+.a .H b{font-size:15px}
+.a .H span{font-size:10px}
+.a .W1{top:calc(50% - 4px);width:46px;height:44px;filter:drop-shadow(0 0 10px rgba(255,140,160,.45))}
+.a .G[data-phase=enter] .duelist[data-side=player] .w1{animation:clash-in-left .42s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=enter] .duelist[data-side=enemy] .w1{animation:clash-in-right .42s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=rolling] .duelist[data-side=player] .w1{animation:clash-press-left .18s ease-in-out infinite alternate}
+.a .G[data-phase=rolling] .duelist[data-side=enemy] .w1{animation:clash-press-right .18s ease-in-out infinite alternate}
+.a .G[data-phase=resolved] .duelist[data-winner=true][data-side=player] .w1{animation:clash-win-left .5s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=resolved] .duelist[data-winner=true][data-side=enemy] .w1{animation:clash-win-right .5s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=resolved] .duelist[data-loser=true][data-side=player] .w1{animation:clash-lose-left .5s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=resolved] .duelist[data-loser=true][data-side=enemy] .w1{animation:clash-lose-right .5s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=resolved] .duelist[data-winner=true] .w1{border-color:#fff;box-shadow:0 0 0 3px rgba(3,10,20,.85),0 0 26px 2px var(--side-glow),0 14px 26px rgba(0,4,12,.65)}
+.a .G[data-phase=resolved] .duelist[data-loser=true] .card-art{filter:grayscale(.7) brightness(.7)}
+.a .G[data-phase=resolved] .duelist[data-loser=true] .X:before{box-shadow:inset 0 0 0 2px #5f7382}
+.a .G[data-phase=resolved] .duelist[data-loser=true] .X strong{color:#9fb0bc;text-decoration:line-through 2px rgba(255,140,160,.8)}
+.a .G[data-phase=resolved] .duelist[data-winner=true] .X{animation:clash-die-pop .45s cubic-bezier(.2,.9,.25,1) both}
+.a .G[data-phase=resolved] .duelist[data-winner=true] .H b{color:#fff}
+.a .G[data-phase=resolved] .duelist[data-loser=true] .H b{color:#a9b8c3}
+@keyframes clash-in-left{from{opacity:0;transform:translateX(-60px) rotate(-14deg)}to{opacity:1;transform:rotate(-2.5deg)}}
+@keyframes clash-in-right{from{opacity:0;transform:translateX(60px) rotate(14deg)}to{opacity:1;transform:rotate(2.5deg)}}
+@keyframes clash-press-left{from{transform:translateX(0) rotate(-2.5deg)}to{transform:translateX(5px) rotate(-1.5deg)}}
+@keyframes clash-press-right{from{transform:translateX(0) rotate(2.5deg)}to{transform:translateX(-5px) rotate(1.5deg)}}
+@keyframes clash-win-left{0%{transform:rotate(-2.5deg)}40%{transform:translateX(14px) rotate(1deg) scale(1.06)}to{transform:translateX(6px) rotate(-1deg) scale(1.03)}}
+@keyframes clash-win-right{0%{transform:rotate(2.5deg)}40%{transform:translateX(-14px) rotate(-1deg) scale(1.06)}to{transform:translateX(-6px) rotate(1deg) scale(1.03)}}
+@keyframes clash-lose-left{0%{transform:rotate(-2.5deg)}35%{transform:translateX(-18px) rotate(-9deg)}to{transform:translateX(-8px) rotate(-6deg) scale(.95);opacity:.82}}
+@keyframes clash-lose-right{0%{transform:rotate(2.5deg)}35%{transform:translateX(18px) rotate(9deg)}to{transform:translateX(8px) rotate(6deg) scale(.95);opacity:.82}}
+@keyframes clash-die-pop{0%{transform:scale(.8)}55%{transform:scale(1.18)}to{transform:none}}
+.a .b1{padding:9px 12px}
+.a .b1:before{border-block:0;border-radius:0;background:linear-gradient(100deg,rgba(3,14,28,.92),rgba(8,32,56,.88));opacity:1;-webkit-mask:var(--ink-block) center/100% 100% no-repeat;mask:var(--ink-block) center/100% 100% no-repeat}
+.a .b1>span{color:var(--tide-soft)}
+.a .b1 p{color:#e6eff4;font-size:12px}
+.a button.b1:not(:disabled):hover:before{background:linear-gradient(100deg,rgba(4,18,34,.95),rgba(10,40,68,.92))}
+@container (max-width:280px){.a .Y3{gap:12px}.a .X{width:54px}.a .X strong{font-size:27px}.a .w1{margin-bottom:26px}.a .f4{bottom:-19px}}

@@ -32,5 +32,9 @@
     "https://img.huohu.ai/library/5562991478/images/6351163265912.png",
     "https://img.huohu.ai/library/5562991478/images/3964993495910.png",
     "https://img.huohu.ai/library/5562991478/images/7828685061018.png"
-  ]
+  ],
+  "cardArt": {
+    "player": "https://img.huohu.ai/library/5562991478/images/5118070800504.webp",
+    "enemy": "https://img.huohu.ai/library/5562991478/images/7523060668096.webp"
+  }
 }
