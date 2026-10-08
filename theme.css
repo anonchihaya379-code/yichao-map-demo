@@ -538,3 +538,5 @@
 @keyframes arena-alert{0%,100%{box-shadow:0 0 0 0 rgba(255,140,160,.6)}50%{box-shadow:0 0 0 5px rgba(255,140,160,0)}}
 @media(prefers-reduced-motion:reduce){.a .versus img,.a .q1:after,.a .q1>span,.a .clash-alert:before{animation:none!important}}
 .a .C1 h2:before{left:50%;width:150%;height:38px;opacity:.34;transform:translate(-50%,-44%)}
+.a .company:before{right:0;left:0}
+.a .C1 h2:before{width:120%}
