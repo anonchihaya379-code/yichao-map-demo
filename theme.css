@@ -284,3 +284,4 @@
 .a .q1{border:0;border-radius:0;padding:10px 16px;background:var(--zhu);box-shadow:none;color:#fbeee4;letter-spacing:.12em;filter:drop-shadow(0 4px 10px rgba(120,20,10,.45));-webkit-mask:var(--ink-seal) center/100% 100% no-repeat;mask:var(--ink-seal) center/100% 100% no-repeat}
 .a .q1:not(:disabled):hover{background:#d24c36}
 .a .q1:disabled{background:rgba(70,78,86,.75);color:#a3abb1;filter:none}
+@container combat-sheet (max-width:300px){.a .D2{padding:10px 9px 11px}.a .b4{padding-right:16px;font-size:15px;letter-spacing:0}.a .b5{top:6px;right:5px;width:16px;height:20px}.a .h1{padding:9px 10px 10px}.a .S2{padding:9px 11px 10px}.a .clash-alert{padding:8px 12px 8px 30px}}
