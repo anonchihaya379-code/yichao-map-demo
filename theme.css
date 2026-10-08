@@ -647,3 +647,4 @@
 .a .sk-die{align-self:center}
 .a .sk-name{align-self:center}
 .a .sk-dice{margin-top:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.a .enemy-detail,.a .member-detail{padding:18px 16px 20px}
