@@ -547,3 +547,5 @@
 .a .f3~.feedback{top:64px;bottom:auto}
 .a .p1{background:linear-gradient(180deg,transparent 62%,rgba(89,213,255,.1))}
 .a .q1:not(:disabled):after,.a .b1:after{display:none;animation:none}
+.a .L3:before,.a .h1.is-selected .L3:before,.a .h1.is-ultimate.is-selected .L3:before{display:none}
+.a .h1 .skill-art{display:none}
