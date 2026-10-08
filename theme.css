@@ -585,3 +585,28 @@
 .a .h1:disabled .F2{flex-direction:row-reverse;gap:5px}
 .a .h1:disabled .F2 small{position:static;width:auto;height:auto;clip:auto;padding:1px 6px;border-radius:999px;background:rgba(255,140,160,.14);box-shadow:inset 0 0 0 1px rgba(255,140,160,.35);color:#ffb3c0;font-size:9px;line-height:1.5;white-space:nowrap}
 .a .h1:disabled .k4{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:clip}
+.a .S2{padding:11px 14px 12px 17px}
+.a .c4{inset:0;border-radius:12px;-webkit-mask:none;mask:none;background:radial-gradient(90% 120% at 100% 0,rgba(89,213,255,.14),transparent 60%),linear-gradient(160deg,rgba(14,40,66,.9),rgba(4,15,28,.94));box-shadow:inset 0 1px 0 rgba(255,255,255,.08),inset 0 0 0 1px rgba(159,228,255,.16),inset 3px 0 0 var(--tide),0 8px 18px -10px rgba(0,0,0,.85)}
+.a .S2.is-open .c4{background:radial-gradient(90% 120% at 100% 0,rgba(89,213,255,.2),transparent 60%),linear-gradient(160deg,rgba(16,46,76,.93),rgba(5,18,33,.95));box-shadow:inset 0 1px 0 rgba(255,255,255,.1),inset 0 0 0 1px rgba(159,228,255,.3),inset 3px 0 0 var(--tide),0 0 14px -4px rgba(89,213,255,.35)}
+.a .B1 strong{display:flex;align-items:center;gap:8px;font-size:19px}
+.a .B1 strong:after{content:"我方";padding:1px 7px;border-radius:999px;background:rgba(89,213,255,.14);box-shadow:inset 0 0 0 1px rgba(89,213,255,.35);color:#bfeaff;font:400 10px/1.5 system-ui,sans-serif;letter-spacing:.12em;text-shadow:none}
+.a .B1 svg{width:18px;height:18px;padding:4px;border-radius:50%;background:rgba(89,213,255,.1);box-sizing:border-box}
+.a .u{gap:8px 12px;margin-top:8px}
+.a .u small{color:#9fc3d6;font-size:10px}
+.a .u b{font-size:14px;text-shadow:0 0 8px color-mix(in srgb,var(--bar) 40%,transparent)}
+.a .u>span:before{height:4px;border-radius:4px;-webkit-mask:none;mask:none;background:linear-gradient(90deg,color-mix(in srgb,var(--bar) 55%,transparent),var(--bar) calc(var(--v,0)*1%),rgba(255,255,255,.08) 0);box-shadow:none}
+.a .enemy-detail,.a .member-detail{--acc:var(--tide);margin:8px 0 0;padding:12px 14px 13px;border-radius:12px;-webkit-mask:none;mask:none;background:linear-gradient(160deg,rgba(12,34,58,.92),rgba(3,12,24,.95));box-shadow:inset 0 1px 0 rgba(255,255,255,.07),inset 0 0 0 1px color-mix(in srgb,var(--acc) 22%,transparent),0 8px 18px -10px rgba(0,0,0,.85)}
+.a .enemy-detail{--acc:var(--coral);background:linear-gradient(160deg,rgba(40,20,50,.92),rgba(10,8,24,.95))}
+.a .member-detail{display:flex;flex-wrap:wrap;gap:6px}
+.a .i1{flex:1 1 100%;display:grid;gap:6px;margin:0}
+.a .i1>span{display:flex;align-items:center;gap:8px;color:var(--acc);font-size:10px;letter-spacing:.16em}
+.a .i1>span:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,color-mix(in srgb,var(--acc) 45%,transparent),transparent)}
+.a .i1 details{border-radius:8px;background:rgba(255,255,255,.035);box-shadow:inset 0 0 0 1px rgba(159,228,255,.1),inset 2px 0 0 color-mix(in srgb,var(--acc) 70%,transparent);transition:background .2s}
+.a .i1 details[open]{background:color-mix(in srgb,var(--acc) 9%,rgba(255,255,255,.03));box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--acc) 30%,transparent),inset 3px 0 0 var(--acc)}
+.a .i1 summary{display:flex;align-items:center;justify-content:space-between;min-height:34px;padding:0 12px;border:0;color:#eef6fa;font:400 14px/1.3 var(--heading)}
+.a .i1 summary:after{content:"";width:6px;height:6px;margin-right:2px;border-right:1.5px solid var(--acc);border-bottom:1.5px solid var(--acc);transform:rotate(45deg) translate(-2px,-2px);transition:transform .2s}
+.a .i1 details[open] summary:after{transform:rotate(-135deg) translate(-2px,-2px)}
+.a .i1 details p{max-width:none;margin:0 12px;padding:7px 0 10px;border-top:1px dashed color-mix(in srgb,var(--acc) 25%,transparent);color:#c6d9e4;font-size:12px;line-height:1.65}
+.a .O2{display:inline-flex;align-items:center;gap:6px;margin:4px 0 0;padding:2px 3px 2px 10px;border-radius:999px;background:rgba(255,140,160,.1);box-shadow:inset 0 0 0 1px rgba(255,140,160,.3);color:#ffe0e6;font:italic 400 11px/1.6 Georgia,serif}
+.a .O2>span:first-child{margin:0;color:#ffd0d9;font:400 11px/1.6 var(--heading);font-style:normal}
+.a .O2:after{content:"";display:none}
