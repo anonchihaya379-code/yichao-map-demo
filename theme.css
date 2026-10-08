@@ -443,3 +443,7 @@
 @keyframes die-roll{0%{transform:rotate(0) scale(1)}25%{transform:rotate(90deg) scale(.88) translateY(-4px)}50%{transform:rotate(180deg) scale(1)}75%{transform:rotate(270deg) scale(.88) translateY(-4px)}to{transform:rotate(360deg) scale(1)}}
 @keyframes die-settle{0%{transform:rotate(-40deg) scale(1.15)}60%{transform:rotate(6deg) scale(.96)}to{transform:none}}
 @container (max-width:280px){.a .X{width:60px}.a .X strong{font-size:25px}.a .f4{bottom:-23px}}
+.a .X small{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.a .X strong,.a .X[data-sides="10"] strong,.a .X[data-sides="12"] strong{margin-top:0}
+.a .X[data-sides="10"] strong{margin-top:-10px}
+.a .X[data-sides="12"] strong{margin-top:2px}
