@@ -1593,7 +1593,7 @@ button:disabled{cursor:not-allowed;opacity:.42}
 .tm{--tide:#59d5ff;--coral:#ff8ca0;position:relative;max-width:none;width:auto;margin:-19px -11px 0;container-type:inline-size}
 .tm .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .tm .map{height:clamp(360px,128cqw,520px);aspect-ratio:auto;border:0;border-radius:0;background:#04121f}
-.tm .map::before{background:radial-gradient(120% 90% at 50% 45%,transparent 40%,rgba(2,8,16,.85) 100%),repeating-linear-gradient(0deg,rgba(120,200,235,.05) 0 1px,transparent 1px 26px),repeating-linear-gradient(90deg,rgba(120,200,235,.05) 0 1px,transparent 1px 26px),repeating-linear-gradient(33deg,rgba(120,200,235,.035) 0 1px,transparent 1px 58px),linear-gradient(160deg,rgba(6,28,52,.82),rgba(3,14,28,.9)),var(--map-image,none) center/cover;opacity:1}
+.tm .map::before{background:radial-gradient(120% 90% at 50% 45%,transparent 40%,rgba(2,8,16,.85) 100%),repeating-linear-gradient(0deg,rgba(120,200,235,.05) 0 1px,transparent 1px 26px),repeating-linear-gradient(90deg,rgba(120,200,235,.05) 0 1px,transparent 1px 26px),repeating-linear-gradient(33deg,rgba(120,200,235,.035) 0 1px,transparent 1px 58px),linear-gradient(160deg,rgba(6,28,52,.7),rgba(3,14,28,.84)),var(--map-image,none) center/cover;opacity:1}
 .tm .map::after{content:none}
 .tm .routes{filter:drop-shadow(0 0 3px rgba(89,213,255,.55))}
 .tm .routes polyline{stroke:rgba(110,205,240,.55);stroke-width:2.6;stroke-linecap:round;vector-effect:non-scaling-stroke}
