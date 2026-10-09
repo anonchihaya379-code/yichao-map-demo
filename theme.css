@@ -1713,3 +1713,4 @@ button:disabled{cursor:not-allowed;opacity:.42}
 .l .d .I3::before,.l .d .I3::after{content:"";width:30px;height:30px;font:inherit;opacity:.85;text-shadow:none;filter:drop-shadow(0 0 6px color-mix(in srgb,var(--acc) 70%,transparent))}
 .l .d .I3::before{top:2px;left:4px;border-top:5px solid var(--acc);border-left:5px solid var(--acc);transform:skewX(-8deg)}
 .l .d .I3::after{top:auto;right:4px;bottom:4px;left:auto;border-right:5px solid var(--acc);border-bottom:5px solid var(--acc);transform:skewX(-8deg)}
+.l .d.release .d4{background:none;-webkit-text-fill-color:#fff;color:#fff;filter:drop-shadow(0 0 8px rgba(255,140,160,.9)) drop-shadow(0 2px 3px rgba(40,0,12,.7))}
