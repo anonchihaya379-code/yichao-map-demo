@@ -1661,10 +1661,10 @@ button:disabled{cursor:not-allowed;opacity:.42}
 .l .d .E4>:nth-child(1){grid-area:1/1}.l .d .E4>:nth-child(2){grid-area:2/1}.l .d .E4>:nth-child(3){grid-area:1/2}.l .d .E4>:nth-child(4){grid-area:2/2}.l .d .E4>:nth-child(5){grid-area:3/1;margin-top:12px}.l .d .E4>:nth-child(6){grid-area:4/1}.l .d .E4>:nth-child(7){grid-area:3/2;margin-top:12px}.l .d .E4>:nth-child(8){grid-area:4/2}
 .l .d .E4>:nth-child(odd){padding-left:2px}.l .d .E4>:nth-child(3),.l .d .E4>:nth-child(4),.l .d .E4>:nth-child(7),.l .d .E4>:nth-child(8){padding-left:16px}
 .l .d .A1{color:var(--acc-soft);font-size:10px;letter-spacing:.2em;opacity:.85}
-.l .d .n2{color:#eef6fa;font:400 16px/1.4 var(--heading)}
+.l .d .n2{color:#eef6fa;font:400 16px/1.4 XCDUANZHUANGSONG,SimSun,serif}
 .l .d .e4{display:flex;align-items:baseline;gap:4px;text-align:left;color:#fff;font:italic 400 26px/1.15 Georgia,serif;text-shadow:0 0 12px color-mix(in srgb,var(--acc) 50%,transparent)}
-.l .d .e4 small{color:var(--acc-soft);font:400 10px/1 var(--body);font-style:normal}
-.l .d .y5{justify-self:start;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--acc) 22%,transparent),transparent 70%);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--acc) 70%,transparent),0 0 12px color-mix(in srgb,var(--acc) 30%,transparent);color:#fff;font:400 18px/1 var(--heading);text-align:center}
+.l .d .e4 small{color:var(--acc-soft);font:400 10px/1 "LXGW Bright",SimSun,serif;font-style:normal}
+.l .d .y5{justify-self:start;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--acc) 22%,transparent),transparent 70%);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--acc) 70%,transparent),0 0 12px color-mix(in srgb,var(--acc) 30%,transparent);color:#fff;font:400 18px/1 XCDUANZHUANGSONG,SimSun,serif;text-align:center}
 .l .d .z1{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:0 0 12px;padding:4px;border-radius:999px;background:rgba(3,12,24,.75);box-shadow:inset 0 0 0 1px rgba(159,228,255,.14)}
 .l .d .z1 button{min-height:38px;min-width:0;padding:6px 10px;border-radius:999px;color:#a9c4d3;font-size:13px;letter-spacing:.3em;transition:background .25s,color .25s}
 .l .d .z1 button::before{content:none}
