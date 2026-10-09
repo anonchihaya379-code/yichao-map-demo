@@ -1640,5 +1640,5 @@ button:disabled{cursor:not-allowed;opacity:.42}
 @container(max-width:300px){.tm .map-point .label{font-size:11px}.tm .detail h2{font-size:22px}}
 @media(prefers-reduced-motion:reduce){.tm .map-point.is-current .pin::after{animation:none}}
 .tm .map{height:clamp(400px,150cqw,560px)}
-.tm .routes{top:62px;bottom:58px;height:auto}
+.tm .routes{top:62px;bottom:auto;height:calc(100% - 120px)}
 .tm .map-point{top:calc(62px + (100% - 120px) * var(--yf,.5))}
