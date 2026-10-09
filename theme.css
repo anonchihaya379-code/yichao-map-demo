@@ -1714,3 +1714,42 @@ button:disabled{cursor:not-allowed;opacity:.42}
 .l .d .I3::before{top:2px;left:4px;border-top:5px solid var(--acc);border-left:5px solid var(--acc);transform:skewX(-8deg)}
 .l .d .I3::after{top:auto;right:4px;bottom:4px;left:auto;border-right:5px solid var(--acc);border-bottom:5px solid var(--acc);transform:skewX(-8deg)}
 .l .d.release .d4{background:none;-webkit-text-fill-color:#fff;color:#fff;filter:drop-shadow(0 0 8px rgba(255,140,160,.9)) drop-shadow(0 2px 3px rgba(40,0,12,.7))}
+.l .d .E4>:nth-child(7){position:static;width:auto;height:auto;overflow:visible;clip:auto;grid-area:3/3;justify-self:center;align-self:end;padding:0}
+.l .d .E4>:nth-child(8){grid-area:1/3/3/4}
+.l .d .y5{--g:#cfefff;--g2:rgba(159,228,255,.5);--gs:1;position:relative;isolation:isolate;display:grid;place-items:center;width:86px;height:86px;margin:0;border-radius:0;background:none;box-shadow:none;color:var(--g);font:400 calc(30px + var(--gs)*4px)/1 XCDUANZHUANGSONG,SimSun,serif;transform:rotate(-8deg);text-shadow:0 0 calc(var(--gs)*4px) var(--g2),0 2px 4px rgba(0,8,20,.7)}
+.l .d .y5::after{content:none}
+.l .d .y5::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none}
+.l .d .y5:not([data-grade]),.l .d .y5[data-grade="未确认"],.l .d .y5[data-grade="未达分级"]{width:auto;height:auto;color:#a9c4d3;font-size:14px;letter-spacing:.1em;transform:none;text-shadow:none}
+.l .d .y5[data-grade="荧"]{--g:#ffe9ee;--g2:rgba(255,190,205,.55);--gs:1;opacity:.85}
+.l .d .y5[data-grade="洇"]{--g:#d9f4ff;--g2:rgba(159,228,255,.55);--gs:1;opacity:.85}
+.l .d .y5[data-grade="炽"],.l .d .y5[data-grade="涟"]{--gs:2}
+.l .d .y5[data-grade="炽"]{--g:#ffd6de;--g2:rgba(255,160,180,.7)}
+.l .d .y5[data-grade="涟"]{--g:#bfeaff;--g2:rgba(89,213,255,.7)}
+.l .d .y5[data-grade="炽"]::before,.l .d .y5[data-grade="涟"]::before{top:auto;bottom:14px;left:12%;right:12%;height:6px;background:var(--g2);-webkit-mask:url(https://img.huohu.ai/library/5562991478/images/3466056098761.webp) center/100% 100% no-repeat;mask:url(https://img.huohu.ai/library/5562991478/images/3466056098761.webp) center/100% 100% no-repeat}
+.l .d .y5[data-grade="灼"],.l .d .y5[data-grade="湍"]{--gs:3}
+.l .d .y5[data-grade="灼"]{--g:#fff;--g2:rgba(255,140,160,.85)}
+.l .d .y5[data-grade="湍"]{--g:#fff;--g2:rgba(89,213,255,.85)}
+.l .d .y5[data-grade="灼"]::before,.l .d .y5[data-grade="湍"]::before{inset:22% -12%;background:var(--g2);opacity:.55;transform:rotate(-6deg);-webkit-mask:url(https://img.huohu.ai/library/5562991478/images/3466056098761.webp) center/100% 100% no-repeat;mask:url(https://img.huohu.ai/library/5562991478/images/3466056098761.webp) center/100% 100% no-repeat}
+.l .d .y5[data-grade="熠"],.l .d .y5[data-grade="漩"],.l .d .y5[data-grade="灿"],.l .d .y5[data-grade="滔"],.l .d .y5[data-grade="煌"],.l .d .y5[data-grade="澜"],.l .d .y5[data-grade="焚"],.l .d .y5[data-grade="湮"]{--g:#fff}
+.l .d .y5[data-grade="熠"],.l .d .y5[data-grade="灿"],.l .d .y5[data-grade="煌"],.l .d .y5[data-grade="焚"]{--g2:rgba(255,140,160,.95);--ring:#ff8ca0}
+.l .d .y5[data-grade="漩"],.l .d .y5[data-grade="滔"],.l .d .y5[data-grade="澜"],.l .d .y5[data-grade="湮"]{--g2:rgba(89,213,255,.95);--ring:#59d5ff}
+.l .d .y5[data-grade="熠"],.l .d .y5[data-grade="漩"]{--gs:4}
+.l .d .y5[data-grade="灿"],.l .d .y5[data-grade="滔"]{--gs:5}
+.l .d .y5[data-grade="煌"],.l .d .y5[data-grade="澜"]{--gs:6}
+.l .d .y5[data-grade="焚"],.l .d .y5[data-grade="湮"]{--gs:7}
+.l .d .y5[data-grade="熠"]::before,.l .d .y5[data-grade="漩"]::before,.l .d .y5[data-grade="灿"]::before,.l .d .y5[data-grade="滔"]::before,.l .d .y5[data-grade="煌"]::before,.l .d .y5[data-grade="澜"]::before,.l .d .y5[data-grade="焚"]::before,.l .d .y5[data-grade="湮"]::before{inset:-4px;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 12%,var(--ring) 22%,transparent 34% 52%,var(--ring) 64%,transparent 76%);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 2px));mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 2px));filter:drop-shadow(0 0 4px var(--ring));animation:grade-spin 6s linear infinite}
+.l .d .y5[data-grade="漩"]::before,.l .d .y5[data-grade="滔"]::before,.l .d .y5[data-grade="澜"]::before,.l .d .y5[data-grade="湮"]::before{animation-direction:reverse}
+.l .d .y5[data-grade="灿"],.l .d .y5[data-grade="滔"],.l .d .y5[data-grade="煌"],.l .d .y5[data-grade="澜"],.l .d .y5[data-grade="焚"],.l .d .y5[data-grade="湮"]{animation:grade-pulse 2.4s ease-in-out infinite}
+.l .d .y5[data-grade="灿"]::after,.l .d .y5[data-grade="滔"]::after,.l .d .y5[data-grade="煌"]::after,.l .d .y5[data-grade="澜"]::after,.l .d .y5[data-grade="焚"]::after,.l .d .y5[data-grade="湮"]::after{content:"";position:absolute;inset:14%;z-index:-2;border-radius:50%;background:radial-gradient(circle,var(--g2),transparent 70%);opacity:.55;pointer-events:none}
+.l .d .y5[data-grade="煌"]::before,.l .d .y5[data-grade="澜"]::before,.l .d .y5[data-grade="焚"]::before,.l .d .y5[data-grade="湮"]::before{background:conic-gradient(from 0deg,transparent 0 6%,var(--ring) 14%,transparent 22% 31%,var(--ring) 39%,transparent 47% 56%,var(--ring) 64%,transparent 72% 81%,var(--ring) 89%,transparent 97%);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));animation-duration:3.6s}
+.l .d .y5[data-grade="煌"]::after,.l .d .y5[data-grade="澜"]::after,.l .d .y5[data-grade="焚"]::after,.l .d .y5[data-grade="湮"]::after{inset:-10%;opacity:.7}
+.l .d .y5[data-grade="焚"]{color:#fff;text-shadow:0 0 6px #fff,0 0 16px #ff8ca0,0 0 32px #ff4f73,0 0 48px rgba(255,79,115,.6);animation:grade-flicker 1.6s steps(1) infinite,grade-pulse 2.4s ease-in-out infinite}
+.l .d .y5[data-grade="焚"]::after{background:radial-gradient(circle,rgba(255,255,255,.5) 0,rgba(255,140,160,.6) 30%,rgba(255,79,115,.25) 55%,transparent 72%)}
+.l .d .y5[data-grade="湮"]{color:#03101d;-webkit-text-stroke:1.5px #9fe4ff;text-shadow:0 0 10px #59d5ff,0 0 26px #1a8fe0,0 0 44px rgba(26,143,224,.6)}
+.l .d .y5[data-grade="湮"]::after{background:radial-gradient(circle,#010810 0 34%,rgba(26,143,224,.5) 52%,transparent 72%);opacity:.9}
+@keyframes grade-spin{to{transform:rotate(360deg)}}
+@keyframes grade-pulse{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes grade-flicker{0%,100%{opacity:1}46%{opacity:.86}48%{opacity:1}72%{opacity:.92}}
+.l .d.is-paused .y5,.l .d.is-paused .y5::before{animation-play-state:paused}
+.l .d.is-reduced .y5,.l .d.is-reduced .y5::before{animation:none}
+@media(prefers-reduced-motion:reduce){.l .d .y5,.l .d .y5::before{animation:none!important}}
