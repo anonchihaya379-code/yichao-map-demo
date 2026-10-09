@@ -1753,3 +1753,6 @@ button:disabled{cursor:not-allowed;opacity:.42}
 .l .d.is-paused .y5,.l .d.is-paused .y5::before{animation-play-state:paused}
 .l .d.is-reduced .y5,.l .d.is-reduced .y5::before{animation:none}
 @media(prefers-reduced-motion:reduce){.l .d .y5,.l .d .y5::before{animation:none!important}}
+.l .d .y5::after{transform:none;font:inherit;letter-spacing:0}
+.l .d .y5[data-grade="灿"]::after,.l .d .y5[data-grade="滔"]::after{opacity:.35}
+.l .d .y5[data-grade="煌"]::after,.l .d .y5[data-grade="澜"]::after{opacity:.45}
